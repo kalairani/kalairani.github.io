@@ -109,11 +109,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "21f17516a2daa47f0ba1afdd30ef6d4f",
-    "url": "/static/media/prionto.21f17516.png"
+    "url": "/static/media/KalairaniVignesh_1.png"
   },
   {
     "revision": "a7995dc82def990591e06c618d273bf8",
-    "url": "/static/media/priontoFull.a7995dc8.png"
+    "url": "/static/media/KalairaniVignesh_2.png"
   },
   {
     "revision": "72cccc0c8463452f23e6007e7f1c0b1c",
