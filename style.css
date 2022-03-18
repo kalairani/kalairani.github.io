@@ -51,8 +51,15 @@ p{
 
   .section-1{
     margin-top: 6%;
+    text-align: right;
+    position: relative;
+}
+
+.summary{
+    margin-top: 6%;
     text-align: left;
     position: relative;
+    padding-left:35%;
 }
 span.wave {
   animation-name: wave-animation;
@@ -74,11 +81,17 @@ span.wave {
 
 .first-image{
     position: absolute;
-    right:0;
+    left:20;
 }
-.boyimage{
-  height: 400px;
+.myimage{
+  height: 500px;
 }
+
+.icon-image{
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  }
 
 @media only screen and (max-width : 1183px){
   .first-image{
@@ -180,18 +193,20 @@ span.wave {
   }
 
  #Whatido{
-     text-align: center;
      padding-top: 7%;
+ }
+
+ .textcenter {
+        text-align: center;
  }
 
   /* Section 2 */
   .feature-1{
       padding-top: 5%;
-      text-align: center;
+
       }
   .feature-2{
     padding-top: 5%;
-    text-align: center;
 }
   .feature-3{
   padding-top: 5%;
@@ -200,8 +215,15 @@ span.wave {
   }
 
   .Feature-Heading{
-      font-family: "Montserrat";
-      font-weight: 300;
+        margin: 1em 0 0.5em 0;
+      	font-weight: 600;
+      	font-family: 'Titillium Web', sans-serif;
+      	position: relative;
+      	font-size: 22px;
+      	line-height: 40px;
+      	color: #355681;
+      	text-transform: uppercase;
+      	border-bottom: 1px solid rgba(53,86,129, 0.3);
   }
 
   .Feature-first-image{
@@ -225,31 +247,39 @@ span.wave {
     height: 84%;
   }
 
+  .ImageSummary{
+      width: 30;
+      height: 50;
+    }
+
 
 
 
   .dev-icon{
       list-style: none;
+      text-align: center;
       display: inline;
       padding: 0%;
   }
 
 
-  .numpy{
+  .icon-image{
     max-width: 100%;
-    width : 30%;
-    height: 30%;
+    width : 20%;
+    height: 17%;
     padding-bottom: 7%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
-  .pandas{
-    max-width: 100%;
-    max-height: 100%;
-    width : 23%;
-    height: 15%;
-    padding-bottom: 7%;
-    padding-left :0;
-  }
+  .icons
+  {
+      max-width: 100%;
+      max-height: 100%;
+      width : 20%;
+      height: 17%;
+      padding-bottom: 7%;
+    }
 
   li{
     display: inline;
@@ -260,8 +290,8 @@ span.wave {
   }
 
   .Features-paragraph{
-      margin-top : 8px;
-      margin-bottom: 8px;
+      margin-top : 5px;
+      margin-bottom: 5px;
   }
 
   @media only screen and (max-width : 764px){
@@ -317,6 +347,8 @@ span.wave {
         height: 15%;
       }
   }
+
+
 
 
 

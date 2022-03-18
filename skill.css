@@ -18,6 +18,18 @@ body{
 
   }
 
+  .Feature-Heading{
+          margin: 1em 0 0.5em 0;
+        	font-weight: 600;
+        	font-family: 'Titillium Web', sans-serif;
+        	position: relative;
+        	font-size: 22px;
+        	line-height: 40px;
+        	color: #355681;
+        	text-transform: uppercase;
+        	border-bottom: 1px solid rgba(53,86,129, 0.3);
+    }
+
 .brand-name ,.navbar-light .navbar-brand{
       /* font-family: "Brush Script MT"; */
       /* margin-bottom: 3px; */
@@ -93,7 +105,7 @@ body{
 }
 
 
-#Skill-HTML {
+#Skill-90 {
     width: 90%;
     border-radius:20px;
     animation: Animate-HTML 4s;
@@ -128,7 +140,7 @@ to {
 }
 to {
     width: 90%}
-}#Skill-CSS {
+}#Skill-70 {
     animation: Animate-CSS 5s;
     -webkit-animation: Animate-CSS 5s;
     -moz-animation: Animate-CSS 5s;
@@ -163,16 +175,6 @@ to {
 }
 to {
     width: 70%}
-}#Skill-Python {
-    border-radius:20px;
-    animation: Animate-Python 5s;
-    -webkit-animation: Animate-Python 5s;
-    -moz-animation: Animate-Python 5s;
-    -o-animation: Animate-Python 5s;
-    width: 80%;
-    height: 50px;
-    position: absolute;
-    background-color: #6c63ff;
 }
 @keyframes Animate-Python {
     from {
@@ -198,16 +200,16 @@ to {
 }
 to {
     width: 80%}
-}#Skill-JS {
-    animation: Animate-JS 4s;
-    -webkit-animation: Animate-JS 4s;
-    -moz-animation: Animate-JS 4s;
-    -o-animation: Animate-JS 4s;
-    border-radius:20px;
-    width: 65%;
-    height: 50px;
-    position: absolute;
-    background-color: #6c63ff;
+}#Skill-60 {
+     animation: Animate-CSS 5s;
+        -webkit-animation: Animate-CSS 5s;
+        -moz-animation: Animate-CSS 5s;
+        -o-animation: Animate-CSS 5s;
+        border-radius:20px;
+        width: 60%;
+        height: 50px;
+        position: absolute;
+        background-color: #6c63ff;
 }
 @keyframes Animate-JS {
     from {
@@ -235,7 +237,7 @@ to {
     width: 65%}
 }
 
-#Skill-C {
+#Skill-80 {
     animation: Animate-C 4s;
     -webkit-animation: Animate-C 4s;
     -moz-animation: Animate-C 4s;
@@ -270,7 +272,7 @@ to {
 }
 to {
     width: 80%}
-}#Skill-Cplus {
+}#Skill-85 {
     animation: Animate-Cplus4s;
     -webkit-animation: Animate-Cplus 4s;
     -moz-animation: Animate-Cplus 4s;
@@ -305,16 +307,6 @@ to {
 }
 to {
     width: 85%}
-}#Skill-SQL {
-    animation: Animate-SQL 4s;
-    -webkit-animation: Animate-SQL 4s;
-    -moz-animation: Animate-SQL 4s;
-    -o-animation: Animate-SQL 4s;
-    border-radius:20px;
-    width: 80%;
-    height: 50px;
-    position: absolute;
-    background-color: #6c63ff;
 }
 @keyframes Animate-SQL {
     from {
